@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: com.example.PostGreSqldemo.controller.DriverControllerTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 3.418 s <<< FAILURE! - in com.example.PostGreSqldemo.controller.DriverControllerTest
+testGetMethod  Time elapsed: 3.402 s  <<< ERROR!
+org.springframework.web.client.ResourceAccessException: I/O error on GET request for "http://localhost:4567/drivers": Connection refused: connect
+	at com.example.PostGreSqldemo.controller.DriverControllerTest.testGetMethod(DriverControllerTest.java:21)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at com.example.PostGreSqldemo.controller.DriverControllerTest.testGetMethod(DriverControllerTest.java:21)
+

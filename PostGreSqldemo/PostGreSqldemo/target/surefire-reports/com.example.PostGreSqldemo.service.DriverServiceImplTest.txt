@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: com.example.PostGreSqldemo.service.DriverServiceImplTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 3.191 s <<< FAILURE! - in com.example.PostGreSqldemo.service.DriverServiceImplTest
+testingPutMethod  Time elapsed: 0.034 s  <<< ERROR!
+com.example.PostGreSqldemo.Exception.AllException: Cannot Find the user
+	at com.example.PostGreSqldemo.service.DriverServiceImplTest.testingPutMethod(DriverServiceImplTest.java:103)
+
