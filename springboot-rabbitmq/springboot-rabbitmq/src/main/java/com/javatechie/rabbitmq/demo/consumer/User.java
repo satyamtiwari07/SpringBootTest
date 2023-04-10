@@ -29,7 +29,7 @@ public class User {
     void sendEmail(String emailTo){
 
         SimpleMailMessage msg = new SimpleMailMessage();
-        msg.setFrom("satyam.tiwari@cloverbaytechnologies.com");
+        msg.setFrom("youremailid@gmail.com");
         msg.setTo(emailTo);
 
         msg.setSubject("Testing from Spring Boot");
