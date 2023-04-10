@@ -46,8 +46,8 @@ public class Application implements CommandLineRunner {
     void sendEmail() throws MessagingException,IOException{
 
         SimpleMailMessage msg = new SimpleMailMessage();
-        msg.setFrom("satyam.tiwari@cloverbaytechnologies.com");
-        msg.setTo("shettyhemanth728@gmail.com");
+        msg.setFrom("Your emailid@gmail.com");
+        msg.setTo("receiver's emailid@gmail.com");
 
         msg.setSubject("Testing from Spring Boot");
         msg.setText("https://in.event.mi.com/in/xiaomi-fan-festival-2023");
